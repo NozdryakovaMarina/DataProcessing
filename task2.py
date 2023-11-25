@@ -7,7 +7,7 @@ from typing import List
 def  change(old: str, new: str, type: List[str]) -> None:
     """
     The function copies images from the old directory to the new one,
-    changing the name
+    changing the name and writes information about the images to a CSV file
     """
     abs_path = os.path.abspath(new)
     rel_path = os.path.relpath(new)
