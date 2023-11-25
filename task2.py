@@ -3,6 +3,7 @@ import csv
 import shutil
 from typing import List
 
+
 def get_abs(type_name: str) -> List[str]:
     """
     The function returns a list of absolute paths for images of a certain type passed 
